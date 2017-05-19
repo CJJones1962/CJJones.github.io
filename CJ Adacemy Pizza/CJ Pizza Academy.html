@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CJ Academy Pizza!</title>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<meta content="width=device-width,initial-scale=1.0" name="viewport">
+		<style>#menuBG{width:400px;height:470px;margin:10px auto;}#frmMenu{width:400px;height:200px;}
+		#totalPrice{width:200px;height:190px;margin:0 auto;float:right;}.left{width:200px;height:200px;float:left;}
+		.right{width:200px;height:200px;float:right;}#showText{width:200px;height:190px;margin:0px auto;float:left;}
+		#cart{top:0;margin:0px auto;width:400px;height:200px;}#btnOrder{margin:10px 0px 0px 100px;width:100px;height:40px}
+		</style>
+	</head>
+	  
+	<body style="background: url(brickovenpizza.jpg) center fixed">
+	<div class="container">
+		<div id="menuBG">
+		
+			<h1 style="margin:0 0px 0 20px;">CJ Academy Pizza!</h1>
+			
+			<form id="frmMenu">
+			<br>
+			
+			
+				<div class="menu left">
+					<h3>Size:</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza"> Large Pizza<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+				</div>
+				
+				
+			
+				<div class="menu right">
+					<h3>Meats:</h3>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+				</div>
+				
+				<div class="menu left">
+					<h3>Cheese:</h3>
+					<input class="cheese" type="radio" name="cheese" value="Regular"> Regular<br>
+					<input class="cheese" type="radio" name="cheese" value="No Cheese"> No Cheese<br>
+					<input class="cheese" type="radio" name="cheese" value="Extra Cheese"> Extra Cheese<br>
+				</div>
+				
+				<div class="menu right">
+					<h3>Crust:</h3>
+					<input class="crust" type="radio" name="crust" value="Plain Crust">Plain Crust<br>
+					<input class="crust" type="radio" name="crust" value="Garlic Butter Crust">Garlic Butter Crust<br>
+					<input class="crust" type="radio" name="crust" value="Cheese Stuffed Crust">Cheese Stuffed Crust <br>
+					<input class="crust" type="radio" name="crust" value="Spicy Crust">Spicy Crust <br>
+					<input class="crust" type="radio" name="crust" value="House Special Crust">House Special Crust<br>
+				</div>
+				
+				<div class="menu left">
+					<h3>Sauce:</h3>
+					<input class="sauce" type="radio" name="sauce" value="Marinara Sauce">Marinara Sauce<br>
+					<input class="sauce" type="radio" name="sauce" value="White Sauce">White Sauce<br>
+					<input class="sauce" type="radio" name="sauce" value="Barbeque Sauce">Barbeque Sauce <br>
+					<input class="sauce" type="radio" name="sauce" value="No Sauce">No Sauce<br>
+				</div>
+				
+				<div class="menu right">
+					<h3>Vegetables:</h3>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Tomatoes">Tomatoes<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Onions">Onions<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Olives">Olives<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Green Peppers">Green Peppers<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Mushrooms">Mushrooms<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Pineapple">Pineapple<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Spinich">Spinich<br>
+					<input class="vegetables" type="checkbox" name="vegetables" value="Jalapeno">Jalapeno<br>
+				</div>
+				<br>
+			<input id="btnOrder" type="button" onclick="getReceipt()"
+					value="Place Order">
+					
+			<input id="btnCancel" type="button" onclick="reset()"
+					value="Cancel">
+				
+				
+				<div id="cart">
+					<div id="title1">
+					<h3>You Ordered:</h3>
+					</div>
+					<div id="title2">
+					<h3>Subtotal:</h3>
+					</div>
+					<div id="showText1"></div>
+					<div id="showText2"></div>
+					<div id="totalPrice1"></div>
+					<h3>Total Price:</h3>
+					<div id="totalPrice"></div>
+					
+				</div>
+			</form>
+		</div>
+	
+	</div>	
+		<script src="final_drill_basic.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script> function font(white)
+	{
+		colsole.log("style.color",+white+) 
+	</body>
+</html>
