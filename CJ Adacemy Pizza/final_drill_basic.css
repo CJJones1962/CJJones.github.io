@@ -1,0 +1,14 @@
+body {
+	color:white;
+}
+h1 {color:white;
+}
+h3 {
+	color:white;
+}
+h3 {
+	border-style:solid;
+	border-style: rounded;
+	border-width: 3px;
+	border-radius: 8px;
+}
