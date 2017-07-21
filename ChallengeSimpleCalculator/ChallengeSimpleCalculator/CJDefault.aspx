@@ -5,19 +5,32 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+        }
+        .newStyle1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .newStyle2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .newStyle3 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <div style="font-family: Arial, Helvetica, sans-serif">
     
-    &nbsp;<asp:Label ID="Title" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Text="Simple Calculator"></asp:Label>
-        <br />
-        <br />
-&nbsp;First Value:&nbsp;
+        <h1><span class="newStyle3">Simple Calculator</span></h1>
+        <span class="newStyle1">&nbsp;First Value</span>:&nbsp;
         <asp:TextBox ID="FirstTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
-        Second Value:&nbsp;
+        <span class="newStyle2">Second Value:</span>&nbsp;
         <asp:TextBox ID="SecondTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
