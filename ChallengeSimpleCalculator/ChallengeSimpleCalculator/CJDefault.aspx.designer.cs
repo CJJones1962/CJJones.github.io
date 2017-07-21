@@ -31,22 +31,22 @@ namespace ChallengeSimpleCalculator {
         protected global::System.Web.UI.WebControls.Label Title;
         
         /// <summary>
-        /// SvalueTextBox control.
+        /// FirstTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SvalueTextBox;
+        protected global::System.Web.UI.WebControls.TextBox FirstTextBox;
         
         /// <summary>
-        /// TextBox1 control.
+        /// SecondTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox SecondTextBox;
         
         /// <summary>
         /// AddButton control.
@@ -58,31 +58,31 @@ namespace ChallengeSimpleCalculator {
         protected global::System.Web.UI.WebControls.Button AddButton;
         
         /// <summary>
-        /// Button1 control.
+        /// SubButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button SubButton;
         
         /// <summary>
-        /// Button2 control.
+        /// MulitButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button MulitButton;
         
         /// <summary>
-        /// Button3 control.
+        /// DivButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button DivButton;
         
         /// <summary>
         /// resultLabel control.

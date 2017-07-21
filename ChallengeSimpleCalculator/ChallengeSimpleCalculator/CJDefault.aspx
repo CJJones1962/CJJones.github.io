@@ -14,21 +14,21 @@
         <br />
         <br />
 &nbsp;First Value:&nbsp;
-        <asp:TextBox ID="SvalueTextBox" runat="server"></asp:TextBox>
+        <asp:TextBox ID="FirstTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
         Second Value:&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="SecondTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
         <br />
-        <asp:Button ID="AddButton" runat="server" Font-Bold="True" Text="+" Width="33px" />
+        <asp:Button ID="AddButton" runat="server" Font-Bold="True" OnClick="AddButton_Click" Text="+" Width="33px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" Font-Bold="True" Text="-" Width="33px" />
+        <asp:Button ID="SubButton" runat="server" Font-Bold="True" OnClick="SubButton_Click" Text="-" Width="33px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" Font-Bold="True" Text="*" Width="31px" />
+        <asp:Button ID="MulitButton" runat="server" Font-Bold="True" OnClick="MulitButton_Click" Text="*" Width="31px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button3" runat="server" Font-Bold="True" Text="/" Width="32px" />
+        <asp:Button ID="DivButton" runat="server" Font-Bold="True" OnClick="DivButton_Click" Text="/" Width="32px" />
         <br />
         <br />
         <br />
