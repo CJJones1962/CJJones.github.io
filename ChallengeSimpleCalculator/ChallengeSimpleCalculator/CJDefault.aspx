@@ -8,9 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div style="font-family: Arial, Helvetica, sans-serif">
     
-    &nbsp;<asp:Label ID="Title" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Simple Calculator"></asp:Label>
+    &nbsp;<asp:Label ID="Title" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="XX-Large" Text="Simple Calculator"></asp:Label>
         <br />
         <br />
 &nbsp;First Value:&nbsp;
@@ -22,13 +22,13 @@
         <br />
         <br />
         <br />
-        <asp:Button ID="AddButton" runat="server" Text="+" Width="33px" />
+        <asp:Button ID="AddButton" runat="server" Font-Bold="True" Text="+" Width="33px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" Text="-" Width="33px" />
+        <asp:Button ID="Button1" runat="server" Font-Bold="True" Text="-" Width="33px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" Text="*" Width="31px" />
+        <asp:Button ID="Button2" runat="server" Font-Bold="True" Text="*" Width="31px" />
 &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button3" runat="server" Text="/" Width="32px" />
+        <asp:Button ID="Button3" runat="server" Font-Bold="True" Text="/" Width="32px" />
         <br />
         <br />
         <br />
